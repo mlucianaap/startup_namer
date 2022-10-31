@@ -1,5 +1,8 @@
 # startup_namer
 
+**Nome:** Maria Luciana Almeida Pereira<br>
+**Disciplina:** Programação para dispositivos móveis
+
 A new Flutter project.
 
 ## Getting Started
