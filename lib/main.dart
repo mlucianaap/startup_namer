@@ -1,4 +1,5 @@
 import 'package:english_words/english_words.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.white,
           foregroundColor: Colors.black,
         ),
+        textTheme: GoogleFonts.aBeeZeeTextTheme(),
       ),
       home: const RandomWords(),
     );
@@ -70,7 +72,6 @@ class _RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // NEW from here ...
       appBar: AppBar(
         title: const Text('Startup Name Generator'),
         actions: [
